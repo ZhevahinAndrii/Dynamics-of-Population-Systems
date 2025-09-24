@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
     plot.figure(figsize=(12,8))
     plot.plot(X, Y)
-    plot.title(f"Phase portrait for variant {variant}")
+    plot.title(f"Phase space for variant {variant}")
     plot.xlabel('Preys')
     plot.ylabel('Predators')
 
